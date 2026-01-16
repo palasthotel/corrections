@@ -5,10 +5,12 @@ namespace Palasthotel\WordPress\Corrections\Components;
 
 /**
  * Class Assets
- * @property Plugin plugin
+ *
  * @version 0.1.2
  */
 class Assets {
+
+    public Plugin $plugin;
 
 	public function __construct( Plugin $plugin ) {
 		$this->plugin = $plugin;
